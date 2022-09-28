@@ -1,0 +1,41 @@
+.currently-reading { 
+  margin: 12px;
+
+}
+
+.currently-reading .currently-reading-text { 
+    font-size: 24px;
+}
+
+.currently-reading .currently-reading-text .currentword { 
+    font-size: 24px;
+    color: red;
+}
+
+.sentences-wrapper {
+  margin: 12px;
+}
+
+.developer {
+  margin-top: 48px;
+
+}
+
+.controls-wrapper {
+  border-top: 1px solid #cacaca;
+}
+
+.controls-button:hover {
+  transform: scale(1.01);
+}
+.controls-button {
+  font-size: 22px;
+  cursor: pointer;
+  background-color: #cacaca;
+  padding: 4px 24px;
+  border: none;
+  margin: 4px 12px;
+  border-radius: 8px;
+  transition: all 50ms ease-in;
+};
+
